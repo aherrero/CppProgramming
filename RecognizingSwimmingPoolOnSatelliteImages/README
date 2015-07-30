@@ -1,0 +1,15 @@
+// RECOGNIZING A SWIMMING POOL ON SATELLITE IMAGES
+// This algorithm was developed for the test of knowledge of the company Dacuda.
+// The objective is to seek outdoor pools of some satellite images of Google Maps.
+//
+// For that, It is possible obtain images in Google Maps in the view “Earth”,
+// without Labels(Menu Earth->Labels off), from a distance of 100 meters, in a full screen (my computer size is 1366x768)
+// and take a screen capture(Print screen button).
+//
+// The application works with an input image, like “image.png”, and it will recognize the swimming pools and the measures.
+// For that, the algorithms also recognize the Google Maps scale(At bottom right of the image)
+// and apply the pixel to meters transformation.
+// The algorithm is thinking for big swimming pools(public) so maybe it will not work with private swimming pools.
+
+// The application was developed in Windows 8.1 platform, in the Microsoft Visual Studio Express 2013 IDE.
+// This code is written in C++, use the OpenCV libraries for the image recognition and STL in some case.
